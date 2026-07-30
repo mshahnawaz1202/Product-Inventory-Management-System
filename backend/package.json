@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev":"nodemon server.js",
-   "start":"npm server.js"
+    "dev": "nodemon server.js",
+    "start": "npm server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
