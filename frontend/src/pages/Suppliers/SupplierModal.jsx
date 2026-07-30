@@ -110,7 +110,7 @@ export default function SupplierModal({ isOpen, onClose, supplier = null, onSucc
                   type="text"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="+1-555-0192"
+                  placeholder="+92-3xxxxx"
                   className="w-full pl-9 pr-3.5 py-2 bg-muted/50 border border-border rounded-xl text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
