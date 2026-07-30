@@ -75,13 +75,13 @@ cd Product-Inventory-Management-System
    npm install
    ```
 
-3. **Verify Environment Variables (`.env`)**:
-   The backend environment file is located at `backend/.env`. It is pre-configured with the MongoDB database string:
+3. **Configure Environment Variables (`.env`)**:
+   Create a `.env` file inside the `backend` folder with your own environment credentials:
    ```env
-   DATABASE_URL="mongodb+srv://shah:WzdcQZcYfzjKyii9@backend.7q3ilbf.mongodb.net/product_inventory"
+   DATABASE_URL="YOUR_MONGODB_CONNECTION_STRING"
    PORT=3000
    NODE_ENV=development
-   JWT_SECRET=inventory_jwt_secret_key_2024_super_secure
+   JWT_SECRET="YOUR_SECRET_KEY"
    JWT_EXPIRES_IN=7d
    CLIENT_URL=http://localhost:5173
    ```
